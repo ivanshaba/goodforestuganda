@@ -2,7 +2,7 @@ import { Navigation } from "@/components/Navigation";
 import { Footer } from "@/components/Footer";
 import { useScrollReveal } from "@/hooks/useScrollReveal";
 import { TreePine, Leaf, Shield, BarChart3 } from "lucide-react";
-import workConservationHeroBg from "@/assets/work-conservation-hero-bg.jpg";
+import workConservationHeroBg from "@/assets/basin.jpg";
 
 const WorkConservation = () => {
   const { ref: titleRef, isVisible: titleVisible } = useScrollReveal();

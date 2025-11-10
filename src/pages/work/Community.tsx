@@ -2,7 +2,7 @@ import { Navigation } from "@/components/Navigation";
 import { Footer } from "@/components/Footer";
 import { useScrollReveal } from "@/hooks/useScrollReveal";
 import { Users, GraduationCap, Coins, Home } from "lucide-react";
-import workCommunityHeroBg from "@/assets/work-community-hero-bg.jpg";
+import workCommunityHeroBg from "@/assets/smile.png";
 
 const WorkCommunity = () => {
   const { ref: titleRef, isVisible: titleVisible } = useScrollReveal();

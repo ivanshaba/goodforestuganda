@@ -3,7 +3,7 @@ import { Footer } from "@/components/Footer";
 import { useScrollReveal } from "@/hooks/useScrollReveal";
 import { Button } from "@/components/ui/button";
 import { ArrowRight, Users, Target, Award } from "lucide-react";
-import aboutHeroBg from "@/assets/about-hero-bg.jpg";
+import aboutHeroBg from "@/assets/Hoima-29.png";
 
 const About = () => {
   const { ref: titleRef, isVisible: titleVisible } = useScrollReveal();

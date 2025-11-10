@@ -2,7 +2,7 @@ import { Navigation } from "@/components/Navigation";
 import { Footer } from "@/components/Footer";
 import { useScrollReveal } from "@/hooks/useScrollReveal";
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";
-import workFaqsHeroBg from "@/assets/work-faqs-hero-bg.jpg";
+import workFaqsHeroBg from "@/assets/greener.jpg";
 
 const WorkFaqs = () => {
   const { ref: titleRef, isVisible: titleVisible } = useScrollReveal();

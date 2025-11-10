@@ -1,6 +1,6 @@
 import { CountdownTimer } from "./CountdownTimer";
 import { useScrollReveal } from "@/hooks/useScrollReveal";
-import forestHeroBg from "@/assets/forest-hero-bg.jpg";
+import forestHeroBg from "@/assets/forest.jpg";
 
 export const HeroSection = () => {
   const { ref: titleRef, isVisible: titleVisible } = useScrollReveal(0.2);

@@ -2,7 +2,7 @@ import { Navigation } from "@/components/Navigation";
 import { Footer } from "@/components/Footer";
 import { useScrollReveal } from "@/hooks/useScrollReveal";
 import { Target, Eye, Compass } from "lucide-react";
-import aboutVisionHeroBg from "@/assets/about-vision-hero-bg.jpg";
+import aboutVisionHeroBg from "@/assets/basin.jpg";
 
 const AboutVision = () => {
   const { ref: titleRef, isVisible: titleVisible } = useScrollReveal();

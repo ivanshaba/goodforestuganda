@@ -2,7 +2,7 @@ import { Navigation } from "@/components/Navigation";
 import { Footer } from "@/components/Footer";
 import { useScrollReveal } from "@/hooks/useScrollReveal";
 import { Smartphone, MapPin, BarChart3, Camera, Zap, Users } from "lucide-react";
-import workTreeoHeroBg from "@/assets/work-treeo-hero-bg.jpg";
+import workTreeoHeroBg from "@/assets/hill.png";
 
 const WorkTreeO = () => {
   const { ref: titleRef, isVisible: titleVisible } = useScrollReveal();

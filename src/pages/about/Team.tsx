@@ -3,8 +3,9 @@ import { Footer } from "@/components/Footer";
 import { useScrollReveal } from "@/hooks/useScrollReveal";
 import { Avatar, AvatarImage, AvatarFallback } from "@/components/ui/avatar";
 import { Linkedin, Mail } from "lucide-react";
-import aboutTeamHeroBg from "@/assets/about-team-hero-bg.jpg";
+import aboutTeamHeroBg from "@/assets/three.png";
 import { Link } from "react-router-dom"; // Import Link from react-router-dom
+
 
 const AboutTeam = () => {
   const { ref: titleRef, isVisible: titleVisible } = useScrollReveal();

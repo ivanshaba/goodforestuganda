@@ -2,7 +2,7 @@ import { Navigation } from "@/components/Navigation";
 import { Footer } from "@/components/Footer";
 import { useScrollReveal } from "@/hooks/useScrollReveal";
 import { TreePine, Users, Globe, Heart } from "lucide-react";
-import whyForestsHeroBg from "@/assets/why-forests-hero-bg.jpg";
+import whyForestsHeroBg from "@/assets/view.jpg";
 
 const WhyGoodForests = () => {
   const { ref: titleRef, isVisible: titleVisible } = useScrollReveal();

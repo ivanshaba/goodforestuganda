@@ -2,7 +2,7 @@ import { Navigation } from "@/components/Navigation";
 import { Footer } from "@/components/Footer";
 import { useScrollReveal } from "@/hooks/useScrollReveal";
 import { MapPin, Trees, Users, Target } from "lucide-react";
-import workAreasHeroBg from "@/assets/work-areas-hero-bg.jpg";
+import workAreasHeroBg from "@/assets/view.jpg";
 
 const WorkAreas = () => {
   const { ref: titleRef, isVisible: titleVisible } = useScrollReveal();
